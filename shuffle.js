@@ -13,6 +13,8 @@ function shuffle(a) {
 
 var collection = eval($('#js-products').attr('data-define'));
 
+console.log(collection);
+
 $.ajax({
   url: "/admin/" + collection.type + "s/" + collection.collectionId + "/order.json",
   dataType: "json",
