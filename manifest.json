@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Shopify Shuffle",
+  "description": "",
+  "version": "1.0",
+  "icons": {
+    "128": "logo.png"
+  },
+  "background": {
+    "scripts": [
+      "shopify_shuffle.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Shopify Shuffle"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
